@@ -36,9 +36,9 @@ const Navbar: React.FC = () => {
       initial={{ y: -60, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
-      className="w-full  bg-white"
+      className="w-full  bg-white fixed"
     >
-      <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+      <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-8">
         {/* Logo */}
         <motion.h1
           initial={{ opacity: 0 }}
